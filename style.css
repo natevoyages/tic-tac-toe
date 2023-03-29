@@ -5,7 +5,7 @@ body{
 h1{
   text-align: center;
 }
-main{
+.board-background{
   display: flex;
   color: black;
   display: flex;
@@ -13,7 +13,11 @@ main{
   justify-content: center;
   align-items: center;
   background-color: white;
-  height: 80vh;
+  height: 60vh;
+}
+.result{
+  text-align: center;
+  font-size: 5rem;
 }
 .gameboard{
   color: black;
@@ -59,4 +63,14 @@ main{
 
 .space:hover{
   cursor: pointer;
+}
+.start-btn{
+ width: 5rem;
+}
+.bottom{
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
